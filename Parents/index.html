@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Child Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-glyphicons.css" rel="stylesheet">
+      <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<nav>
+				<ul class="nav nav-pills nav-justified ">
+					<li><a href="index.html" target="_blank"><img src="../../Assests_PNG/childchallenge_logo.png" alt="Child Challenge!!!!" height="200" width="300"></a></li>
+					<li class="col-mid-3 active"><a href="index.html">HOME</a></li>
+          <li class="col-mid-4"><a href="content.html">CONTENT</a></li>
+					<li class="col-mid-4"><a href="analytics.html">ANALYTICS</a></li>
+          <li class="col-mid-4"><a href="../parents.html">LOG OFF</a></li>
+				</ul>
+			</nav>
+		</div>
+
+    <div width="1200" height="640"> 
+      <div class="pull-left">
+            <canvas id="myCard" height="550" width="500" style= "background: #fcfcc5; border: solid 1px"></canvas>
+            <script>
+              var report = document.getElementById("myCard"); 
+              var ctx= report.getContext("2d");
+              ctx.font = "50px Chalkboard"; 
+              ctx.fillText ("Report Card", 80, 50);
+              ctx.moveTo(60, 60); 
+              ctx.lineTo(360, 60 );
+              ctx.stroke();
+              ctx.font = "50px Chalkboard";
+              ctx.fillText ("A+    GREAT!!!!", 100, 130);
+              ctx.font = "50px Chalkboard";
+              ctx.fillText ("A    0:37", 225, 230);
+              ctx.font = "50px Chalkboard";
+              ctx.fillText ("A-   1:42", 225, 330);
+            </script>
+      </div>
+          <div class="pull-right">
+              <!--<canvas id="myData" height="75" width="475" style="border: red solid 1px"></canvas>
+            <script>
+              var report = document.getElementById("myData"); 
+              var ctx= report.getContext("2d");
+              ctx.font = "30px Chalkboard"; 
+              ctx.fillText ("TOTAL GAME TIME: 3:04", 30, 50);
+            </script>-->
+            <img src="../Assests_PNG/halfpage.png" height="550" width="625">
+ 
+    
+        </div>
+
+	
+	</div>
+    <!--<footer class="row">
+      <p>&copy; 2013 Copyright</p>
+    </footer>--> 
+<!-- javascript -->
+
+
+    <!--JS is evolving standard in the body-->
+</body>
+</html>
